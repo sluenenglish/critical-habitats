@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Free Consultation",
+    "description": "We can provide obligation free consultation and quote.",
+    "image": "images/features/consult.svg"
+  },
+  {
+    "title": "Trained professionals",
+    "description": "Work is overseen by a professional certified in environmental management.",
+    "image": "images/features/certified.svg"
+  },
+  {
+    "title": "Friendly service",
+    "description": "We are a small business and can provide a personal and bespoke service for every job.",
+    "image": "images/features/handshake.svg"
+  }
+]

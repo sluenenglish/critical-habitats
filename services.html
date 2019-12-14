@@ -1,0 +1,58 @@
+---
+title: Services
+layout: default
+bodyClass: page-services-list
+---
+
+<div class="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>What we do...</h1>
+                <p>
+                    <i>"Everything starts with one step, or one brick, or one word or one day"</i>
+                    --Jeremy Gilley
+                </p>
+
+                <p>
+                    We restore habitats so that native plants and creatures can find somewhere safe to live.
+                    To achieve this, we need to link as many areas together as possible.
+                    Some of these creatures are very small, so walking a long way is difficult!
+                    Imagine yourself struggling from oasis to oasis in the desert - wouldn't you want more oases?
+                </p>
+
+
+                <p>
+                    You can help nature by being a part of the movement to create stepping stones
+                    for biodiversity in your garden.
+                    Each new stepping stone is a vital oasis in the grand scheme of things.
+                    We can provide a full service to build stepping stones for biodiversity not just for you,
+                    but for nature and for the future.
+                </p>
+
+                <p>
+                    Remember - There is no planet "B"
+                </p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pb-6">
+    <div class="row">
+        {% for service in site.services %}
+        <div class="col-12 col-md-4 mb-1">
+            <div class="service service-summary">
+                <div class="service-content">
+                    <h2 class="service-title">
+                        <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+                    </h2>
+                    {{ service.content | markdownify | strip_html | truncate: 100 }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
