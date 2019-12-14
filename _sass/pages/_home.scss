@@ -1,5 +1,5 @@
 .page-home {
-  background-image: url('/images/photography/stream_fade.jpg');
+  background-image: url($baseurl + '/images/photography/stream_fade.jpg');
   background-size: cover;
   .call {
     position: relative;

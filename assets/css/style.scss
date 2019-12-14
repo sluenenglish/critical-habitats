@@ -3,6 +3,8 @@
 # only Main files contain this front matter, not partials.
 ---
 
+$baseurl:"{{ site.baseurl }}";
+
 // Font
 @import url('https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700');
 

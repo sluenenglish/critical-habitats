@@ -1,6 +1,6 @@
 encoding: utf-8
-baseurl: ''
-exclude: ['README.md', 'vendor']
+baseurl: '/critical-habitats.github.io/'
+exclude: ['README.md', 'vendor', '.idea']
 permalink: pretty
 title: 'Jekyll Serif'
 
