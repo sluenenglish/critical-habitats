@@ -20,7 +20,7 @@ defaults:
       type: services
     values:
       layout: service
-      bodyClass: page-services-single
+#      bodyClass: page-services-single
   - scope:
       path: 'images'
     values:
