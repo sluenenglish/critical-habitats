@@ -2,7 +2,7 @@ encoding: utf-8
 baseurl: '/critical-habitats'
 exclude: ['README.md', 'vendor', '.idea']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Critical Habitats'
 
 collections:
   services:
